@@ -46,7 +46,7 @@ with tab1:
     for i, row in enumerate(popular_df.iterrows()):
         book = row[1]
         with cols[i % 5]:
-            st.image(book["Image-URL-M"], use_column_width=True)
+            st.image(book["Image-URL-M"], use_container_width=True)
             st.write(f"**{book['Book-Title']}**")
             st.caption(f"✍️ {book['Book-Author']}")
             st.caption(f"⭐ {round(book['avg_rating'], 2)} | {book['num_ratings']} votes")
@@ -72,7 +72,7 @@ with tab2:
                 book_image = temp_df.drop_duplicates('Book-Title')['Image-URL-M'].values[0]
 
                 with cols[i % 5]:
-                    st.image(book_image, use_column_width=True)
+                    st.image(book_image, use_container_width=True)
                     st.write(f"**{book_title}**")
                     st.caption(f"✍️ {book_author}")
         else:
