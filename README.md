@@ -11,24 +11,37 @@ App Screenshot:
 
 🚀 Features
   > 📊 Top 50 Popular Books shown on homepage
+
   > 🔎 Search any book and get personalized recommendations
+
   > 🖼️ Book covers, authors, and ratings included
+
   > ⚡ Built with Flask/Streamlit for web deployment
 
 🛠️ Tech Stack
   > Python (pandas, numpy, scikit-learn, pickle)
+  
   > Streamlit (frontend + backend)
+  
   > GitHub (for version control)
+  
   > Streamlit Cloud (for deployment)
 
 📂 Project Structure
   ├── app.py                 # Main app file
+  
   ├── popular.pkl            # Precomputed popular books
+  
   ├── books.pkl              # Book dataset
+  
   ├── pt.pkl                 # Pivot table
+  
   ├── similarity_scores.pkl  # Similarity matrix
+  
   ├── requirements.txt       # Dependencies
+  
   ├── .gitignore
+  
   └── README.md
 
 🤝 Contributing 
