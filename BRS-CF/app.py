@@ -6,7 +6,22 @@ import os
 # -------------------------
 # File Paths with BASE_DIR
 # -------------------------
-BASE_DIR = r"C:\Users\urmee\Desktop\Python\BRS-CF"
+# BASE_DIR = r"C:\Users\urmee\Desktop\Python\BRS-CF"
+
+# popular_df = pickle.load(open(os.path.join(BASE_DIR, "popular.pkl"), "rb"))
+# pt = pickle.load(open(os.path.join(BASE_DIR, "pt.pkl"), "rb"))
+# books = pickle.load(open(os.path.join(BASE_DIR, "books.pkl"), "rb"))
+# similarity_scores = pickle.load(open(os.path.join(BASE_DIR, "similarity_scores.pkl"), "rb"))
+# Current script directory
+# BASE_DIR = os.path.dirname(__file__)
+# file_path = os.path.join(BASE_DIR, 'popular.pkl')
+
+# popular_df = pickle.load(open(file_path, 'rb'))
+# pt = pickle.load(open(file_path,"rb"))
+# books = pickle.load(open(file_path,"rb"))
+# similarity_scores = pickle.load(open(file_path,"rb"))
+
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
 popular_df = pickle.load(open(os.path.join(BASE_DIR, "popular.pkl"), "rb"))
 pt = pickle.load(open(os.path.join(BASE_DIR, "pt.pkl"), "rb"))
