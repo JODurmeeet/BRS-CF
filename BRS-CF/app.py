@@ -6,7 +6,7 @@ import os
 # -------------------------
 # File Paths with BASE_DIR
 # -------------------------
-BASE_DIR = r"C:\Users\urmee\Desktop\Python\BRS-CF\models"
+BASE_DIR = r"C:\Users\urmee\Desktop\Python\BRS-CF"
 
 popular_df = pickle.load(open(os.path.join(BASE_DIR, "popular.pkl"), "rb"))
 pt = pickle.load(open(os.path.join(BASE_DIR, "pt.pkl"), "rb"))
