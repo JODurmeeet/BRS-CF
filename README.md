@@ -4,8 +4,9 @@ This is a Book Recommendation System built using Python, Streamlit, and Machine 
 The system suggests books based on popularity and similarity.
 
 👀Live App: https://book-recommender-app-collaborative-filtering.streamlit.app/
+
 App Screenshot:
-<img width="1920" height="876" alt="image" src="https://github.com/user-attachments/assets/4af861ab-f490-462c-98a6-df3c93bf81ef" />
+<img width="1920" height="876" alt="image" src="https://github.com/user-attachments/assets/4af861ab-f490-462c-98a6-df3c93bf81ef" width="600" height="400"/>
 <img width="1920" height="875" alt="image" src="https://github.com/user-attachments/assets/c1a28f0e-03bf-4ed5-854b-12af503432f1" />
 
 🚀 Features
